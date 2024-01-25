@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+    font-family: 'Kanit'; /* ตั้งชื่อฟอน */
+    src: url('path/to/your-font.ttf') format('truetype'); /* ตั้ง path ของไฟล์ฟอน */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'Kanit', sans-serif; /* ใช้ฟอนใน body */
+  }
+  
+  .app {
+    font-family: 'Kanit', sans-serif; /* ใช้ฟอนในคลาส .thai-text */
+  }
